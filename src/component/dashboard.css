@@ -1,0 +1,141 @@
+.dashboard {
+  padding: 32px;
+  background: linear-gradient(180deg, #f4f8ff, #eef2ff);
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.stats-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 32px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-title {
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box.blue {
+  background: #e0ebff;
+  color: #2563eb;
+}
+
+.icon-box.green {
+  background: #e6fbe9;
+  color: #16a34a;
+}
+
+.icon-box.yellow {
+  background: #fef9c3;
+  color: #ca8a04;
+}
+
+.icon-box.purple {
+  background: #f3e8ff;
+  color: #7c3aed;
+}
+
+.table-card {
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.modern-grid {
+  height: 420px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.dept-pill {
+  background: #ede9fe;
+  color: #6d28d9;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stars {
+  color: #facc15;
+  line-height: 1;
+}
+
+.rating {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* employee table css */
+.ag-theme-alpine {
+  --ag-row-border-color: #e5e7eb;
+  --ag-header-background-color: #f9fafb;
+  --ag-header-foreground-color: #111827;
+  --ag-font-size: 14px;
+}
+
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ag-theme-alpine .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+.ag-theme-alpine .ag-header-cell-label {
+  font-weight: 600;
+}
+
+.ag-theme-alpine .ag-header {
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.ag-theme-alpine .ag-row-hover {
+  background-color: #f9fafb !important;
+}
